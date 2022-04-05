@@ -1,17 +1,14 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
-
-
 * {
     box-sizing: border-box;
 }
-
-body,
+body, 
 html {
     font-size: 22px;
     font-family: 'georgia', sans-serif;
 }
 
-figure,
+figure, 
 img {
     width: 100%;
     display: block;
@@ -44,14 +41,12 @@ header p {
 
 .container.image .caption,
 .container.image figcaption {
-    padding: 5px 10px;
+    padding: 5px 10 px;
 }
-
 
 .annotate {
     position: relative;
 }
-
 
 .annotate .dot {
     width: 50px;
@@ -62,7 +57,6 @@ header p {
     overflow: hidden;
     color: #FFF;
 }
-
 
 .annotate .dot .inner {
     position: absolute;
@@ -100,7 +94,6 @@ header p {
     background-color: rgba(240, 12, 182, 0.65);
 }
 
-
 #mary:not(.active) {
     top: 65%;
     left: 35%;
@@ -121,7 +114,6 @@ header p {
     left: 30%;
 }
 
-
 .annotate .dot.active {
     width: 100%;
     height: 100%;
@@ -132,22 +124,18 @@ header p {
     z-index: 2;
 }
 
-
 .annotate .dot.active .inner,
 .annotate .dot.active .close {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
 }
 
-
 @media(min-width: 681px) {
 
     .annotate .dot.active .inner {
         padding: 75px;
     }
-   
 }
-
 
 @media(min-width: 805px) {
     .container {
